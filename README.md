@@ -1,20 +1,32 @@
 # [Retos de Programación](https://retosdeprogramacion.com/)
 ## Configuracion inicial
+- [GIT]()
+    - Descarga:
+        ```bash
+        git init
+        git clone (url)
+        ```
+    - .gitignore
+        ```
+        node_modules/
+        package-lock.json
+        package.json
+        ```
 - [NPM](https://www.npmjs.com/)
     - Inicializar:
-        ```
+        ```bash
         npm init
         ```
     - Instalar dependencias:
-        ```
+        ```bash
         npm install
         ```
     - Instalar dependencias de desarrollo:
-        ```
+        ```bash
         npm install --save-dev
         ```
     - Instalar dependencias de producción:
-        ```
+        ```bash
         npm install --save
         ```
 ### Dependencias
